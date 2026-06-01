@@ -19,6 +19,7 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/horizonte" element={<Horizonte/>}/>
       <Route path="/marcelo-augusto" element={<MarceloAugusto/>}/>
+      <Route path="/ana" element={<Ana/>} />
 
       {/* ======================================================== */}
       {/* 👇 ALUNOS: adicionem a rota de vocês aqui (1 linha cada)  */}
