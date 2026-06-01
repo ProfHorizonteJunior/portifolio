@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 import fotoHorizonte from "../assets/horizonte.jpeg";
+import fotoIsrael from "../assets/israel.jpg";
 
 // ============================================================
 // 👨‍🏫 PROFESSOR: adicione aqui os nomes dos estudantes da turma
@@ -12,6 +13,7 @@ const alunos = [
   { nome: "Maria", rota: "/maria" },
   { nome: "Pedro", rota: "/pedro" },
   { nome: "Ana", rota: "/ana" },
+  { nome: "Israel", rota: "/israel", foto: fotoIsrael}
   // adicione mais alunos seguindo o mesmo padrão...
 ];
 
