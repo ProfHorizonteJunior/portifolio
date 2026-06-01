@@ -1,0 +1,25 @@
+/* ===== MINIATURA DO CARD ===== */
+.card-thumb {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  overflow: hidden;            /* 👈 recorta em círculo e some o fundo branco */
+  padding: 3px;
+  background: linear-gradient(135deg, #818cf8, #c084fc);
+  box-shadow: 0 6px 18px rgba(129, 140, 248, 0.4);
+}
+
+.card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* 👈 preenche sem distorcer */
+  border-radius: 50%;
+  display: block;
+}
+
+/* Zoom suave ao passar o mouse no card */
+.card:hover .card-thumb {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
