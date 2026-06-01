@@ -18,10 +18,8 @@ export default function App() {
       {/* Página inicial - NÃO MEXER */}
       <Route path="/" element={<Home />} />
       <Route path="/horizonte" element={<Horizonte/>}/>
-      
-      {/* ======================================================== */}
-      {/* 👇 ALUNOS: adicionem a rota de vocês aqui (1 linha cada)  */}
-      {/*       <Route path="/julia" element={<Julia/>}/> */}
+
+     <Route path="/julia" element={<Julia/>}/>
     </Routes>
     </BrowserRouter>
   );
