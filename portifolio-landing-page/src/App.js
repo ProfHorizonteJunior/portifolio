@@ -17,6 +17,7 @@ export default function App() {
       {/* Página inicial - NÃO MEXER */}
       <Route path="/" element={<Home />} />
       <Route path="/horizonte" element={<Horizonte/>}/>
+      <Route path="/ana" element={<Ana/>} />
 
       {/* ======================================================== */}
       {/* 👇 ALUNOS: adicionem a rota de vocês aqui (1 linha cada)  */}
