@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Horizonte from "./pages/Horizonte";
 import Julia from "./pages/Julia";
 import MarceloAugusto from "./pages/MarceloAugusto";
+import Ana from "./pages/Ana"
 import "./App.css";
 
 // ============================================================
