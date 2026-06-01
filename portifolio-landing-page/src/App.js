@@ -2,6 +2,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Horizonte from "./pages/Horizonte";
 import "./App.css";
+import Ana from "./pages/Ana";
 
 // ============================================================
 // 👇 ALUNOS: importem o componente de vocês aqui (1 linha cada)
