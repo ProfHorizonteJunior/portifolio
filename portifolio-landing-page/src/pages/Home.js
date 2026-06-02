@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 import fotoHorizonte from "../assets/horizonte.jpeg";
+import fotoTulio from "../assets/tulio.svg";
 
 // ============================================================
 // 👨‍🏫 PROFESSOR: adicione aqui os nomes dos estudantes da turma
@@ -9,6 +10,7 @@ import fotoHorizonte from "../assets/horizonte.jpeg";
 // ============================================================
 const alunos = [
   { nome: "Horizonte Junior", rota: "/horizonte", foto: fotoHorizonte },
+  { nome: "Tulio Silveira Lodetti", rota: "/tulio", foto: fotoTulio },
   { nome: "Maria", rota: "/maria" },
   { nome: "Pedro", rota: "/pedro" },
   { nome: "Ana", rota: "/ana" },

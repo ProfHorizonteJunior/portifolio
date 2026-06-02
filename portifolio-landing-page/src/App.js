@@ -9,6 +9,7 @@ import "./App.css";
 // ============================================================
 // import Joao from "./pages/Joao";
 // import Maria from "./pages/Maria";
+import Tulio from "./pages/Tulio";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       {/* ======================================================== */}
       {/* <Route path="/joao" element={<Joao />} /> */}
       {/* <Route path="/maria" element={<Maria />} /> */}
+      <Route path="/tulio" element={<Tulio />} />
     </Routes>
     </BrowserRouter>
   );
