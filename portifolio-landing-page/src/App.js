@@ -1,10 +1,12 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
+import  Horizonte from "./pages/Horizonte";
 import Horizonte from "./pages/Horizonte";
 import Israel from "./pages/Israel";
 import Julia from "./pages/Julia";
 import MarceloAugusto from "./pages/MarceloAugusto";
 import "./App.css";
+import  Alisson from "./pages/Alisson";
 
 // ============================================================
 // 👇 ALUNOS: importem o componente de vocês aqui (1 linha cada)
@@ -21,6 +23,7 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/horizonte" element={<Horizonte/>}/>
       <Route path="/israel" element={<Israel/>}/>
+      <Route path="/alisson" element={<Alisson/>}/>
       <Route path="/marcelo-augusto" element={<MarceloAugusto/>}/>
       <Route path="/ana" element={<Ana/>} />
      <Route path="/julia" element={<Julia/>}/>
