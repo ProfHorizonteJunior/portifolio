@@ -1,0 +1,242 @@
+/* ===== BASE ===== */
+.perfil {
+  position: relative;
+  min-height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+  color: #f1f5f9;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(129, 140, 248, 0.12), transparent 40%),
+    radial-gradient(circle at 90% 0%, rgba(56, 189, 248, 0.12), transparent 40%);
+}
+
+/* ===== BOTÃO VOLTAR ===== */
+.voltar {
+  display: inline-block;
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.voltar:hover {
+  color: #818cf8;
+  transform: translateX(-4px);
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 30px 0 50px;
+  animation: fadeInDown 0.8s ease both;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+  overflow: hidden; /* 👈 corta o que sair do círculo */
+  background: linear-gradient(135deg, #818cf8, #c084fc);
+  padding: 4px; /* cria uma "borda" gradiente em volta */
+  box-shadow: 0 10px 30px rgba(129, 140, 248, 0.45);
+  animation: float 4s ease-in-out infinite;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 👈 preenche o círculo sem distorcer */
+  border-radius: 50%;
+  display: block;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #818cf8, #c084fc, #38bdf8);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+.cargo {
+  font-size: 1.15rem;
+  color: #c084fc;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.tagline {
+  color: #94a3b8;
+  font-size: 1.05rem;
+  max-width: 480px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
+}
+
+/* ===== BADGES ===== */
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.badge {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(129, 140, 248, 0.4);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.badge:hover {
+  transform: translateY(-3px);
+  background: rgba(129, 140, 248, 0.25);
+}
+
+/* ===== SEÇÕES ===== */
+.secao {
+  margin-top: 50px;
+  background: rgba(30, 41, 59, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 20px;
+  padding: 32px;
+  animation: fadeInUp 0.6s ease both;
+}
+
+.secao h2 {
+  font-size: 1.6rem;
+  margin-bottom: 18px;
+  color: #818cf8;
+}
+
+.secao p {
+  color: #cbd5e1;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.secao strong {
+  color: #c084fc;
+}
+
+/* ===== TIMELINE (Formação) ===== */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.ponto {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #818cf8, #c084fc);
+  box-shadow: 0 0 0 4px rgba(129, 140, 248, 0.2);
+}
+
+.item h3 {
+  font-size: 1.15rem;
+  margin-bottom: 4px;
+  color: #f1f5f9;
+}
+
+.item p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+/* ===== CARDS DE INTERESSE ===== */
+.cards-interesse {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+}
+
+.interesse {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 16px;
+  padding: 24px 18px;
+  text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interesse:hover {
+  transform: translateY(-6px);
+  border-color: rgba(129, 140, 248, 0.5);
+  box-shadow: 0 15px 30px rgba(129, 140, 248, 0.2);
+}
+
+.interesse span {
+  font-size: 2.2rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.interesse h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #f1f5f9;
+}
+
+.interesse p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* ===== RODAPÉ ===== */
+.perfil-footer {
+  margin-top: 60px;
+  text-align: center;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* ===== ANIMAÇÕES ===== */
+@keyframes shine {
+  to { background-position: 200% center; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 600px) {
+  .secao { padding: 24px 18px; }
+  .avatar { width: 90px; height: 90px; font-size: 2.4rem; }
+}
