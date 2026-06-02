@@ -26,7 +26,7 @@ export default function App() {
       <Route path="/horizonte" element={<Horizonte/>}/>
 
       <Route path="/eduardo" element={<Eduardo/>}/>
-
+      <Route path="/julia" element={<Julia/>}/>
       <Route path="/gabriel" element={<Gabriel />} />
       <Route path="/israel" element={<Israel/>}/>
       <Route path="/alisson" element={<Alisson/>}/>
