@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 import fotoHorizonte from "../assets/horizonte.jpeg";
+import fotoEduardo from "../assets/eduardo.png";
 import fotoGabriel from "../assets/Gabriel.jpeg";
 import fotoAlisson from "../assets/alisson.jpg";
 import fotoJulia from "../assets/julia.jpeg";
 import fotoIsrael from "../assets/israel.jpg"
 import fotoAna from "../assets/foto.webp"
+
 
 // ============================================================
 // 👨‍🏫 PROFESSOR: adicione aqui os nomes dos estudantes da turma
@@ -22,7 +24,9 @@ const alunos = [
   { nome: "Pedro", rota: "/pedro" },
   { nome: "Ana", rota: "/ana", foto: fotoAna},
   { nome: "Gabriel", rota: "/gabriel", foto: fotoGabriel },
- 
+   { nome: "Ana", rota: "/ana" },
+  { nome: "Eduardo", rota: "/eduardo", foto: fotoEduardo },
+
   // adicione mais alunos seguindo o mesmo padrão...
 ];
 
