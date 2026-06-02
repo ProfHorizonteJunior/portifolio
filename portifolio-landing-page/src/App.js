@@ -1,6 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Horizonte from "./pages/Horizonte";
+import Eduardo from "./pages/Eduardo";
 import "./App.css";
 
 // ============================================================
@@ -17,6 +18,7 @@ export default function App() {
       {/* Página inicial - NÃO MEXER */}
       <Route path="/" element={<Home />} />
       <Route path="/horizonte" element={<Horizonte/>}/>
+      <Route path="/eduardo" element={<Eduardo/>}/>
 
       {/* ======================================================== */}
       {/* 👇 ALUNOS: adicionem a rota de vocês aqui (1 linha cada)  */}
