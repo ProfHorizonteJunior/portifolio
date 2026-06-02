@@ -2,13 +2,10 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import  Horizonte from "./pages/Horizonte";
 import Horizonte from "./pages/Horizonte";
-<<<<<<< HEAD
 import Thiago from "./pages/Thiago";
-=======
 import Israel from "./pages/Israel";
 import Julia from "./pages/Julia";
 import MarceloAugusto from "./pages/MarceloAugusto";
->>>>>>> d4fca93566f8127bc6a54f19e02a689d642b05f0
 import "./App.css";
 import  Alisson from "./pages/Alisson";
 
@@ -26,7 +23,7 @@ export default function App() {
       {/* Página inicial - NÃO MEXER */}
       <Route path="/" element={<Home />} />
       <Route path="/horizonte" element={<Horizonte/>}/>
-<<<<<<< HEAD
+
       <Route path="/thiago" element={<Thiago/>}/>
 
       {/* ======================================================== */}
@@ -35,13 +32,13 @@ export default function App() {
       {/* ======================================================== */}
       {/* <Route path="/joao" element={<Joao />} /> */}
       {/* <Route path="/maria" element={<Maria />} /> */}
-=======
+
       <Route path="/israel" element={<Israel/>}/>
       <Route path="/alisson" element={<Alisson/>}/>
       <Route path="/marcelo-augusto" element={<MarceloAugusto/>}/>
       <Route path="/ana" element={<Ana/>} />
      <Route path="/julia" element={<Julia/>}/>
->>>>>>> d4fca93566f8127bc6a54f19e02a689d642b05f0
+
     </Routes>
     </BrowserRouter>
   );
