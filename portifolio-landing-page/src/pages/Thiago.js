@@ -28,7 +28,7 @@ export default function Thiago() {
       <section className="secao">
         <h2> Sobre mim</h2>
         <p>
-          Sou <strong>aluno</strong> apaixonado por tecnologia e por
+          Sou aluno apaixonado por tecnologia e por
           compartilhar conhecimento. Minha jornada une o mundo do
           desenvolvimento, sempre com um olhar
           curioso para o universo dos dispositivos conectados e projetos com
