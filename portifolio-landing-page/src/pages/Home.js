@@ -14,7 +14,6 @@ const alunos = [
    {nome: "Alisson", rota: "/alisson", foto: fotoAlisson},
   { nome: "Maria", rota: "/maria" },
   { nome: "Pedro", rota: "/pedro" },
-  { nome: "Ana", rota: "/ana" }
   { nome: "Ana", rota: "/ana" },
   { nome: "Júlia", rota: "/julia", foto: fotoJulia },
   { nome: "Marcelo Augusto", rota: "/marcelo-augusto" },

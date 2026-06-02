@@ -1,6 +1,5 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
-import  Horizonte from "./pages/Horizonte";
 import Horizonte from "./pages/Horizonte";
 import Julia from "./pages/Julia";
 import MarceloAugusto from "./pages/MarceloAugusto";
