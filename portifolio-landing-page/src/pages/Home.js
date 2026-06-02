@@ -12,6 +12,7 @@ const alunos = [
   { nome: "Maria", rota: "/maria" },
   { nome: "Pedro", rota: "/pedro" },
   { nome: "Ana", rota: "/ana" },
+  { nome: "Thiago", rota: "/thiago" },
   // adicione mais alunos seguindo o mesmo padrão...
 ];
 
