@@ -3,6 +3,7 @@ import "./Home.css";
 import fotoHorizonte from "../assets/horizonte.jpeg";
 import fotoAlisson from "../assets/alisson.jpg"
 import fotoJulia from "../assets/julia.jpeg";
+import fotoIsrael from "../assets/israel.jpg"
 
 // ============================================================
 // 👨‍🏫 PROFESSOR: adicione aqui os nomes dos estudantes da turma
@@ -12,6 +13,9 @@ import fotoJulia from "../assets/julia.jpeg";
 const alunos = [
   { nome: "Horizonte Junior", rota: "/horizonte", foto: fotoHorizonte },
    {nome: "Alisson", rota: "/alisson", foto: fotoAlisson},
+   { nome: "Júlia", rota: "/julia", foto: fotoJulia },
+  { nome: "Marcelo Augusto", rota: "/marcelo-augusto" },
+  { nome: "Israel", rota: "/israel", foto: fotoIsrael },
   { nome: "Maria", rota: "/maria" },
   { nome: "Pedro", rota: "/pedro" },
   { nome: "Ana", rota: "/ana" },
