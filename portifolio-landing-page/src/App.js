@@ -8,7 +8,6 @@ import MarceloAugusto from "./pages/MarceloAugusto";
 import Alisson from "./pages/Alisson";
 import Ana from "./pages/Ana";
 import "./App.css";
-import  Alisson from "./pages/Alisson";
 
 // ============================================================
 // 👇 ALUNOS: importem o componente de vocês aqui (1 linha cada)

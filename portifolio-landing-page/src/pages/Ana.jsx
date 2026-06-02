@@ -1,12 +1,20 @@
 import { Link } from "react-router-dom";
 import "./Ana.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import julius from "../assets/foto.webp";
 
 export default function Ana() {
 
     const [mostrarProjetos, setMostrarProjetos] = useState(false);
     const [foto, setFoto] = useState(false);
+
+    useEffect(() => {
+        const restaurarCursor = () => {
+            document.body.style.cursor = "auto";
+        };
+        window.addEventListener("focus", restaurarCursor);
+        return () => window.removeEventListener("focus", restaurarCursor);
+    }, []);
 
     return (
         <div className="perfil">
@@ -43,8 +51,6 @@ export default function Ana() {
                             <h3>Não clique aqui</h3>
                             <p></p>
                         </a>
-                    </div>
-                    <div className="cards-interesse">
                         <a href="https://mrdoob.com/projects/chromeexperiments/google-gravity/"
                             target="_blank" rel="noopener noreferrer"
                             className="interesse interesse-link">
@@ -52,8 +58,6 @@ export default function Ana() {
                             <h3>Não clique aqui</h3>
                             <p></p>
                         </a>
-                    </div>
-                    <div className="cards-interesse">
                         <div className="interesse interesse-link" onClick={() => setFoto(!foto)}>
                             {foto ? (
                                 <img
@@ -69,8 +73,6 @@ export default function Ana() {
                                 </>
                             )}
                         </div>
-                    </div>
-                    <div className="cards-interesse">
                         <a href="https://macek.github.io/google_pacman/"
                             target="_blank" rel="noopener noreferrer"
                             className="interesse interesse-link">
