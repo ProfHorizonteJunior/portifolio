@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 import fotoHorizonte from "../assets/horizonte.jpeg";
-import fotoAlisson from "../assets/alisson.jpg"
+import fotoGabriel from "../assets/Gabriel.jpeg";
+import fotoAlisson from "../assets/alisson.jpg";
 import fotoJulia from "../assets/julia.jpeg";
 
 // ============================================================
@@ -11,10 +12,11 @@ import fotoJulia from "../assets/julia.jpeg";
 // ============================================================
 const alunos = [
   { nome: "Horizonte Junior", rota: "/horizonte", foto: fotoHorizonte },
-   {nome: "Alisson", rota: "/alisson", foto: fotoAlisson},
+  { nome: "Gabriel", rota: "/gabriel", foto: fotoGabriel },
+  { nome: "Alisson", rota: "/alisson", foto: fotoAlisson },
+  { nome: "Julia", rota: "/julia", foto: fotoJulia },
   { nome: "Maria", rota: "/maria" },
   { nome: "Pedro", rota: "/pedro" },
-  { nome: "Ana", rota: "/ana" }
   { nome: "Ana", rota: "/ana" },
   // adicione mais alunos seguindo o mesmo padrão...
 ];

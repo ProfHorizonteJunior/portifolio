@@ -1,12 +1,13 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
-import  Horizonte from "./pages/Horizonte";
 import Horizonte from "./pages/Horizonte";
+import Gabriel from "./pages/Gabriel";
 import Israel from "./pages/Israel";
 import Julia from "./pages/Julia";
 import MarceloAugusto from "./pages/MarceloAugusto";
-import "./App.css";
+import Alisson from "./pages/Alisson";
 import Ana from "./pages/Ana";
+import "./App.css";
 import  Alisson from "./pages/Alisson";
 
 // ============================================================
@@ -23,11 +24,17 @@ export default function App() {
       {/* Página inicial - NÃO MEXER */}
       <Route path="/" element={<Home />} />
       <Route path="/horizonte" element={<Horizonte/>}/>
+      <Route path="/gabriel" element={<Gabriel />} />
       <Route path="/israel" element={<Israel/>}/>
       <Route path="/alisson" element={<Alisson/>}/>
       <Route path="/marcelo-augusto" element={<MarceloAugusto/>}/>
       <Route path="/ana" element={<Ana/>} />
-     <Route path="/julia" element={<Julia/>}/>
+      <Route path="/julia" element={<Julia/>}/>
+
+      {/* ======================================================== */}
+      {/* 👇 ALUNOS: adicionem a rota de vocês aqui (1 linha cada)  */}
+      {/* Exemplo: <Route path="/joao" element={<Joao />} />        */}
+      {/* ======================================================== */}
     </Routes>
     </BrowserRouter>
   );
