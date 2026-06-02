@@ -16,6 +16,7 @@ import "./App.css";
 // ============================================================
 // import Joao from "./pages/Joao";
 // import Maria from "./pages/Maria";
+import Tulio from "./pages/Tulio";
 
 export default function App() {
   return (
@@ -38,6 +39,9 @@ export default function App() {
       {/* 👇 ALUNOS: adicionem a rota de vocês aqui (1 linha cada)  */}
       {/* Exemplo: <Route path="/joao" element={<Joao />} />        */}
       {/* ======================================================== */}
+
+      <Route path="/tulio" element={<Tulio />} />
+
     </Routes>
     </BrowserRouter>
   );

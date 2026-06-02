@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 import fotoHorizonte from "../assets/horizonte.jpeg";
+
+import fotoTulio from "../assets/tulio.svg";
+
 import fotoEduardo from "../assets/eduardo.png";
 import fotoGabriel from "../assets/Gabriel.jpeg";
 import fotoAlisson from "../assets/alisson.jpg";
@@ -16,10 +19,14 @@ import fotoAna from "../assets/foto.webp"
 // ============================================================
 const alunos = [
   { nome: "Horizonte Junior", rota: "/horizonte", foto: fotoHorizonte },
+
+  { nome: "Tulio Silveira Lodetti", rota: "/tulio", foto: fotoTulio },
+
    {nome: "Alisson", rota: "/alisson", foto: fotoAlisson},
    { nome: "Júlia", rota: "/julia", foto: fotoJulia },
   { nome: "Marcelo Augusto", rota: "/marcelo-augusto" },
   { nome: "Israel", rota: "/israel", foto: fotoIsrael },
+
   { nome: "Maria", rota: "/maria" },
   { nome: "Pedro", rota: "/pedro" },
   { nome: "Ana", rota: "/ana", foto: fotoAna},
