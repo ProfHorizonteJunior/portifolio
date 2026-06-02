@@ -6,6 +6,7 @@ import Israel from "./pages/Israel";
 import Julia from "./pages/Julia";
 import MarceloAugusto from "./pages/MarceloAugusto";
 import "./App.css";
+import Ana from "./pages/Ana";
 import  Alisson from "./pages/Alisson";
 
 // ============================================================
