@@ -35,7 +35,6 @@ export default function App() {
       <Route path="/ana" element={<Ana/>} />
       <Route path="/tulio" element={<Tulio />} />
 
-
       {/* ======================================================== */}
       {/* 👇 ALUNOS: adicionem a rota de vocês aqui (1 linha cada)  */}
       {/* Exemplo: <Route path="/joao" element={<Joao />} />        */}
