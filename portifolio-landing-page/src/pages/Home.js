@@ -1,16 +1,13 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 import fotoHorizonte from "../assets/horizonte.jpeg";
-
-import fotoTulio from "../assets/tulio.svg";
-
+import fotoTulio from "../assets/fotoTulio.jpg";
 import fotoEduardo from "../assets/eduardo.png";
 import fotoGabriel from "../assets/Gabriel.jpeg";
 import fotoAlisson from "../assets/alisson.jpg";
 import fotoJulia from "../assets/julia.jpeg";
-import fotoIsrael from "../assets/israel.jpg"
-import fotoAna from "../assets/foto.webp"
-
+import fotoIsrael from "../assets/israel.jpg";
+import fotoAna from "../assets/foto.webp";
 
 // ============================================================
 // 👨‍🏫 PROFESSOR: adicione aqui os nomes dos estudantes da turma
@@ -19,22 +16,16 @@ import fotoAna from "../assets/foto.webp"
 // ============================================================
 const alunos = [
   { nome: "Horizonte Junior", rota: "/horizonte", foto: fotoHorizonte },
-
   { nome: "Tulio Silveira Lodetti", rota: "/tulio", foto: fotoTulio },
-
-   {nome: "Alisson", rota: "/alisson", foto: fotoAlisson},
-   { nome: "Júlia", rota: "/julia", foto: fotoJulia },
+  { nome: "Alisson", rota: "/alisson", foto: fotoAlisson },
+  { nome: "Júlia", rota: "/julia", foto: fotoJulia },
   { nome: "Marcelo Augusto", rota: "/marcelo-augusto" },
   { nome: "Israel", rota: "/israel", foto: fotoIsrael },
-
+  { nome: "Ana", rota: "/ana", foto: fotoAna },
+  { nome: "Gabriel", rota: "/gabriel", foto: fotoGabriel },
+  { nome: "Eduardo", rota: "/eduardo", foto: fotoEduardo },
   { nome: "Maria", rota: "/maria" },
   { nome: "Pedro", rota: "/pedro" },
-  { nome: "Ana", rota: "/ana", foto: fotoAna},
-  { nome: "Gabriel", rota: "/gabriel", foto: fotoGabriel },
-   { nome: "Ana", rota: "/ana" },
-  { nome: "Eduardo", rota: "/eduardo", foto: fotoEduardo },
-
-  // adicione mais alunos seguindo o mesmo padrão...
 ];
 
 export default function Home() {
